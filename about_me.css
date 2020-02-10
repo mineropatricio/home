@@ -1,0 +1,106 @@
+/*
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Armata', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Armata', sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 1em 0;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 0 1em 0 1em;
+    font-size: 1em;
+}
+
+.home{
+    float: left;
+}
+
+nav ul li a:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.san_salvador{
+    padding-top: 2em;
+    background-image: url(media/Centro_historico_san_salvador.jpg);
+    width: 100vw;
+    height: 85vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.photo_credit{
+    right: 0;
+    color: white;
+    opacity: .4;
+}
+
+.photo_credit a{
+    color: white;
+    text-decoration: none;
+}
+
+.description{
+    margin: 0 8em;
+}
+
+.description h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.description p{
+    font-size: 1.5em;
+    padding: .75em 0;
+    text-align: justify;
+}
+
+.san_francisco{
+    background-image: url(media/San_Francisco.jpg);
+    width: 100vw;
+    height: 85vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.barcelona{
+    background-image: url(media/panorama_parc_guell.jpg);
+    width: 100vw;
+    height: 85vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

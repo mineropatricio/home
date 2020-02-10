@@ -1,0 +1,72 @@
+/*font-family: 'Armata', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Armata', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    background: linear-gradient(to bottom, #e0eafc, #92a8c7);
+    box-shadow: 5px 10px 18px #888888;;
+}
+
+header img{
+    width: 40%;
+    height: 7em;
+    margin: auto;
+}
+
+.nav{
+    width: 15%;
+    height: 100vh;
+    background: linear-gradient(to Right, black, rgb(39, 39, 39), rgb(65, 65, 65));
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul{
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.nav ul li{
+    padding: 1em;
+    width: 100%;
+    transition: background-color 250ms ease-in;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav ul li:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.main{
+    width: 85%;
+    height: 100vh;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.main h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.main p{
+    font-size: 2em;
+    text-align: center;
+}

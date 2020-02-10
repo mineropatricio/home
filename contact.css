@@ -1,0 +1,78 @@
+/*font-family: 'Armata', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Armata', sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 1em 0;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 0 1em 0 1em;
+    font-size: 1em;
+}
+
+.home{
+    float: left;
+}
+
+nav ul li a:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+#video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.info{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.info h1{
+    font-size: 3em;
+}
+
+.info p{
+    font-size: 2em;
+}
+
+.info p img{
+    height: .8em;
+}
