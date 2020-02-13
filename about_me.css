@@ -112,7 +112,7 @@ nav ul li a:hover{
 
 .san_salvador{
     padding-top: 3em;
-    background-image: url(media/Centro_historico_san_salvador.jpg);
+    background-image: url(media/about_media/Centro_historico_san_salvador.jpg);
     width: 100vw;
     height: 85vh;
     background-size: 100% 100%;
@@ -147,7 +147,7 @@ nav ul li a:hover{
 }
 
 .san_francisco{
-    background-image: url(media/San_Francisco.jpg);
+    background-image: url(media/about_media/San_Francisco.jpg);
     width: 100vw;
     height: 85vh;
     background-size: 100% 100%;
@@ -156,7 +156,7 @@ nav ul li a:hover{
 }
 
 .barcelona{
-    background-image: url(media/panorama_parc_guell.jpg);
+    background-image: url(media/about_media/panorama_parc_guell.jpg);
     width: 100vw;
     height: 85vh;
     background-size: 100% 100%;

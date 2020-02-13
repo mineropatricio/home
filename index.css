@@ -12,12 +12,7 @@ body{
     background-image: url('media/sicily_sunset-min.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: fixed;
-}
-
-nav img{
-    width: 3em;
-    margin-left: 1em;
+    background-position: fixed; 
 }
 
 nav{
@@ -105,23 +100,19 @@ nav ul li a:hover{
     left: 0;
 }
 
-section div{
-    display: flex;
-    position: fixed;
-    margin: auto;   
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-}
-
 .info{
     position: relative;
-    margin: auto;
     justify-content: center;
     transform: translateY(20%);
     padding: AUTO;
     text-align: center;
     display: block;
+    width: 30em;
+    height: 15em;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
+    z-index: 0;  
 }
 
 .info img{

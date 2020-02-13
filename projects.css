@@ -126,9 +126,9 @@ nav ul li a:hover{
 }
 
 .single_page{
-    background-image: url(media/single_page.png);
+    background-image: url(media/projects_media/Resume_single_page.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     box-shadow: 0 0 .5em 0 black;
 }
@@ -149,7 +149,7 @@ nav ul li a:hover{
 }
 
 .grid_layout{
-    background-image: url(media/VSC_background.jpg);
+    background-image: url(media/projects_media/VSC_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -172,7 +172,7 @@ nav ul li a:hover{
 }
 
 .gallery{
-    background-image: url(media/collage_me.png);
+    background-image: url(media/projects_media/collage_me.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
