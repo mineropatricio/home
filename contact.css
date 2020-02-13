@@ -117,7 +117,7 @@ nav ul li a:hover{
 .info{
     position: fixed;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(63, 45, 45, 0);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
