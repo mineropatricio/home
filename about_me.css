@@ -123,7 +123,7 @@ nav ul li a:hover{
 @media only screen and (max-width: 750px){
     .san_salvador{
         background-image: url(media/about_media/Centro_historico_san_salvador_mobile.jpg);
-        height: 85vh;
+        height: 75vh;
     }
 }
 
@@ -150,15 +150,15 @@ nav ul li a:hover{
 }
 
 .description h1{
-    font-size: 3.5em;
+    font-size: 5em;
     text-align: center;
 }
 
 @media only screen and (max-width: 750px) {
     
     .description h1{
-        font-size: 3em;
-        margin: .5em;
+        font-size: 2.5em;
+        margin: 0;
     }
 }
 .description p{
@@ -169,7 +169,7 @@ nav ul li a:hover{
 
 @media only screen and (max-width: 750px) {
     .description p{
-        font-size: 3em;
+        font-size: 1.5em;
     }
 }
 
