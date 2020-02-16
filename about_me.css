@@ -146,8 +146,19 @@ nav ul li a:hover{
     .description{
         margin: 1em;
     }
+}
+
+@media only screen and (min-width: 750px) and (orientation: landscape) and (max-width: 1200px) {
+    .description {
+        margin: 1em;
+    }
+
+    .description h1{
+        font-size: 4em;
+    }
 
 }
+
 
 .description h1{
     font-size: 5em;
@@ -161,6 +172,7 @@ nav ul li a:hover{
         margin: 0;
     }
 }
+
 .description p{
     font-size: 1.5em;
     padding: .75em 0;
