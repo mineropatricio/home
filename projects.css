@@ -146,7 +146,7 @@ nav ul li a:hover{
 }
 
 .single_page{
-    background-image: url(media/projects_media/Resume_single_page.jpg);
+    background-image: url(media/projects_media/single_page.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -169,7 +169,7 @@ nav ul li a:hover{
 }
 
 .grid_layout{
-    background-image: url(media/projects_media/VSC_background.jpg);
+    background-image: url(media/projects_media/grid_layout.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
