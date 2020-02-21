@@ -17,6 +17,7 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: #EBDED7;
     width: 100vw;
+    overflow-x: hidden;
 }
   
 @media only screen and (max-width: 1200px) {
@@ -47,6 +48,7 @@ body{
     padding: 1em;
     color: #2D475E;
     background-color: #D4A67D;
+    width: auto;
 }
 
 .header img{
@@ -252,6 +254,15 @@ body{
 .main img{ 
     width: 100%;
     height: 30em;
+}
+
+.section1{
+    grid-area: section1;
+    padding: 3em;
+    width: 100%;
+    margin: 0;
+    background-color: #D4A67D;
+    color: #2D475E;
 }
 
 .footer { 

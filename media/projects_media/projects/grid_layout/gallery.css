@@ -9,10 +9,12 @@ body{
     display: grid;
     grid-template-areas:
     'header header header header header header'
-    'navbar navbar navbar navbar navbar navbar'
-    'main main main main main main'
-    'item2 item2 item3 item3 item4 item4'
-    'item5 item5 item6 item6 item7 item7'
+    'navbar navbar navbar navbar navbar navbar' 
+    'title title title title title title'
+    'northam northam northam northam northam northam'
+    'southam southam southam southam southam southam'
+    'europe europe europe europe europe europe'
+    'asia asia asia asia asia asia'
     'footer footer footer footer footer footer';
     font-family: 'Raleway', sans-serif;
     background-color: #EBDED7;
@@ -23,13 +25,11 @@ body{
         grid-template-areas: 
         'header'
         'navbar'
-        'main'
-        'item2'
-        'item3'
-        'item4'
-        'item5'
-        'item6'
-        'item7'
+        'title'
+        'northam'
+        'southam'
+        'europe'
+        'asia'
         'footer';
     }
     body > div{
@@ -126,9 +126,11 @@ body{
         padding: 0 0.1em;
     }
     .navbar ul li a{
-        margin: 0 0.35em; 
+        margin: 0 0.5em; 
     }
 }
+
+
 
 .navbar ul li a{
     color: #EBDED7;
@@ -137,9 +139,328 @@ body{
     line-height: 0.5;
 }
 
+@media only screen and (max-width: 800px){
+    .navbar ul li{
+        margin: 0 0.5em;
+    }
+} 
+
 .navbar ul li a:hover{
     color: white;
 }
+
+.title{
+    grid-area: title;
+    display: block;
+    width: 100%;
+    font-size: 3em;
+    color: #2D475E;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 3em 0 3em;
+}
+
+@media only screen and (max-width: 1200px){
+    .title{
+        margin: 0;
+        font-size: 3em;
+        width:100%;
+        padding:1em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .northamerica{
+      margin:0;
+      padding: 2em;
+      grid-template-areas: 
+      'northa'
+      'pic1'
+      'pic2' 
+      'pic3' 
+      'pic4'
+      'pic5' 
+      'pic6' 
+      'pic7' 
+      'pic8';
+      grid-gap: .5em;
+      }
+  }
+
+.northamerica{
+    grid-area: northam;
+    display: grid;
+    width: 100%;
+    padding: 0em 2em 1em 2em;
+    grid-template-areas: 
+    'northa northa northa northa'
+    'pic1 pic2 pic3 pic4'
+    'pic5 pic6 pic7 pic8';
+    grid-gap: .5em;
+}
+
+@media only screen and (max-width: 1200px){
+    .northamerica{
+        margin:0;
+        padding: 1em;
+        grid-template-areas: 
+        'northa northa'
+        'pic1 pic2' 
+        'pic3 pic4'
+        'pic5 pic6' 
+        'pic7 pic8';
+        grid-gap: .5em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .northamerica{
+      margin:0;
+      padding: 2em;
+      grid-template-areas: 
+      'northa'
+      'pic1'
+      'pic2' 
+      'pic3' 
+      'pic4'
+      'pic5' 
+      'pic6' 
+      'pic7' 
+      'pic8';
+      grid-gap: .5em;
+      }
+  }
+
+.northamerica h3{
+    grid-area: northa;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #2D475E;
+    margin-top: .5em;
+}
+
+.southamerica{
+    grid-area: southam;
+    display: grid;
+    width: 100%;
+    padding: 0em 2em 1em 2em;
+    grid-template-areas: 
+    'sura sura sura sura'
+    'pic1 pic2 pic3 pic4'
+    'pic5 pic6 pic7 pic8';
+    grid-gap: .5em;
+}
+
+@media only screen and (max-width: 1200px){
+    .southamerica{
+        margin:0;
+        padding: 1em;
+        grid-template-areas: 
+        'sura sura'
+        'pic1 pic2' 
+        'pic3 pic4'
+        'pic5 pic6' 
+        'pic7 pic8';
+        grid-gap: .5em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .southamerica{
+      margin:0;
+      padding: 2em;
+      grid-template-areas: 
+      'sura'
+      'pic1'
+      'pic2' 
+      'pic3' 
+      'pic4'
+      'pic5' 
+      'pic6' 
+      'pic7' 
+      'pic8';
+      grid-gap: .5em;
+      }
+  }
+
+.southamerica h3{
+    grid-area: sura;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #2D475E;
+    margin-top: 1em;
+}
+
+.europe{
+    grid-area: europe;
+    display: grid;
+    width: 100%;
+    padding: 0em 2em 1em 2em;
+    grid-template-areas: 
+    'europa europa europa europa'
+    'pic1 pic2 pic3 pic4'
+    'pic5 pic6 pic7 pic8';
+    grid-gap: .5em;
+}
+
+@media only screen and (max-width: 1200px){
+    .europe{
+        margin:0;
+        padding: 1em;
+        grid-template-areas: 
+        'europa europa'
+        'pic1 pic2' 
+        'pic3 pic4'
+        'pic5 pic6' 
+        'pic7 pic8';
+        grid-gap: .5em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .europe{
+      margin:0;
+      padding: 2em;
+      grid-template-areas: 
+      'europa'
+      'pic1'
+      'pic2' 
+      'pic3' 
+      'pic4'
+      'pic5' 
+      'pic6' 
+      'pic7' 
+      'pic8';
+      grid-gap: .5em;
+      }
+  }
+
+.europe h3{
+    grid-area: europa;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #2D475E;
+    margin-top: 1em;
+}
+
+.asia{
+    grid-area: asia;
+    display: grid;
+    width: 100%;
+    padding: 0em 2em 1em 2em;
+    grid-template-areas: 
+    'asian asian asian asian'
+    'pic1 pic2 pic3 pic4'
+    'pic5 pic6 pic7 pic8';
+    grid-gap: .5em;
+}
+
+@media only screen and (max-width: 1200px){
+    .asia{
+        margin:0;
+        padding: 1em;
+        grid-template-areas: 
+        'asian asian'
+        'pic1 pic2' 
+        'pic3 pic4'
+        'pic5 pic6' 
+        'pic7 pic8';
+        grid-gap: .5em;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .asia{
+      margin:0;
+      padding: 2em;
+      grid-template-areas: 
+      'asian'
+      'pic1'
+      'pic2' 
+      'pic3' 
+      'pic4'
+      'pic5' 
+      'pic6' 
+      'pic7' 
+      'pic8';
+      grid-gap: .5em;
+      }
+  }
+
+.asia h3{
+    grid-area: asian;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #2D475E;
+    margin-top: 1em;
+}
+
+
+.northamerica .image, .southamerica .image, .europe .image, .asia .image {
+    width: 100%;
+    height: 10em;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 750px){
+    .northamerica .image, .southamerica .image, .europe .image, .asia .image {
+        width: 100%;
+        height: 12em;
+        display: inline-block;
+    }
+  }
+
+.northamerica a, .southamerica a, .europe a, .asia a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: #2D475E .1em solid;
+}
+
+.northamerica .image:hover, .southamerica .image:hover, .europe .image:hover, .asia .image:hover{
+    transform: scale(2);
+}
+
+
+@media only screen and (max-width: 1200px){
+    .northamerica .image:hover, .southamerica .image:hover, .europe .image:hover, .asia .image:hover{
+        transform: none;
+    }
+}
+
+.pic1{
+    grid-area: pic1;
+}
+
+.pic2{
+    grid-area: pic2;
+}
+
+.pic3{
+    grid-area: pic3;
+}
+
+.pic4{
+    grid-area: pic4;
+}
+
+.pic5{
+    grid-area: pic5;
+}
+
+.pic6{
+    grid-area: pic6;
+}
+
+.pic7{
+    grid-area: pic7;
+}
+
+.pic8{
+    grid-area: pic8;
+}
+
+
 .footer { 
     grid-area: footer;
     display: grid;
