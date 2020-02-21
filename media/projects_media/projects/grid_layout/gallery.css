@@ -153,7 +153,7 @@ body{
     grid-area: title;
     display: block;
     width: 100%;
-    font-size: 3em;
+    font-size: 4em;
     color: #2D475E;
     text-align: center;
     text-transform: uppercase;
@@ -169,23 +169,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 750px){
-    .northamerica{
-      margin:0;
-      padding: 2em;
-      grid-template-areas: 
-      'northa'
-      'pic1'
-      'pic2' 
-      'pic3' 
-      'pic4'
-      'pic5' 
-      'pic6' 
-      'pic7' 
-      'pic8';
-      grid-gap: .5em;
-      }
-  }
+
 
 .northamerica{
     grid-area: northam;
@@ -233,10 +217,10 @@ body{
 
 .northamerica h3{
     grid-area: northa;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     color: #2D475E;
-    margin-top: .5em;
+    margin-top: 1em;
 }
 
 .southamerica{
@@ -285,7 +269,7 @@ body{
 
 .southamerica h3{
     grid-area: sura;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     color: #2D475E;
     margin-top: 1em;
@@ -337,7 +321,7 @@ body{
 
 .europe h3{
     grid-area: europa;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     color: #2D475E;
     margin-top: 1em;
@@ -389,7 +373,7 @@ body{
 
 .asia h3{
     grid-area: asian;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     color: #2D475E;
     margin-top: 1em;
