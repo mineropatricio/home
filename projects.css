@@ -192,7 +192,7 @@ nav ul li a:hover{
 }
 
 .gallery{
-    background-image: url(media/projects_media/collage_me.png);
+    background-image: url(media/projects_media/gallery_thumbnail.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
