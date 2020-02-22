@@ -37,6 +37,25 @@ body{
     }
 }
 
+@media only screen and (max-width: 750px) {
+    body{
+        grid-template-areas: 
+        'header'
+        'navbar'
+        'title'
+        'northam'
+        'southam'
+        'europe'
+        'asia'
+        'footer';
+        width: 100vw;
+    }
+    body > div{
+        margin: 1em .5em;
+    }
+}
+
+
   body > div {
     text-align: center;
     font-size: 30px;
@@ -130,8 +149,6 @@ body{
     }
 }
 
-
-
 .navbar ul li a{
     color: #EBDED7;
     text-decoration: none;
@@ -139,9 +156,10 @@ body{
     line-height: 0.5;
 }
 
-@media only screen and (max-width: 800px){
-    .navbar ul li{
-        margin: 0 0.5em;
+@media only screen and (max-width: 750px){
+    .navbar ul li a{
+        margin: 0 1em; 
+        font-size: 1.5em;
     }
 } 
 
